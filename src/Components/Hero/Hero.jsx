@@ -57,13 +57,13 @@ const Hero = () => {
           </div>
         </div>
         <div className="col-r">
-          <Image src='/Images/hero-pic.png' width={200} height={500} />
+          <Image src='/Images/hero-pic.png' width={400} height={500} alt='coffee' />
         </div>
       </div>
 
       <div className="row-2">
         {incredients.map((item) => (
-          <div className='incredient'>
+          <div className='incredient' key={item.id}>
             <p>{item.title}</p>
             <h3>{item.weight}</h3>
           </div>

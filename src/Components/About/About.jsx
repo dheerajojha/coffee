@@ -6,9 +6,9 @@ const About = () => {
         <section className="about-wrapper grid-2">
             <div className="col-l">
                 <div className="image-gallery-container">
-                    <Image src='/Images/gallery-pic1.jpg' width={200} height={200} />
-                    <Image src='/Images/gallery-pic2.jpg' width={200} height={200} />
-                    <Image src='/Images/gallery-pic3.jpg' width={200} height={200} />
+                    <Image src='/Images/gallery-pic1.jpg' alt='aboutpic' width={200} height={200} />
+                    <Image src='/Images/gallery-pic2.jpg' alt='aboutpic' width={200} height={200} />
+                    <Image src='/Images/gallery-pic3.jpg' alt='aboutpic' width={200} height={200} />
                 </div>
             </div>
             <div className="col-r gap">

@@ -80,7 +80,8 @@ a {
 
 .cta-white:hover {
   background: var(--primary);
-  color: var(--black)
+  color: var(--white);
+  border:1px solid var(--white)
 }
 
 .grid-2 {
